@@ -7,4 +7,4 @@ export const SITE_LINKS = {
 } as const;
 
 export const CHAT_WEBHOOK_URL =
-  "http://localhost:5678/webhook/3580637a-86c7-4671-8f9d-d2784843494a";
+  "https://alyangujjar.app.n8n.cloud/webhook/3580637a-86c7-4671-8f9d-d2784843494a";
