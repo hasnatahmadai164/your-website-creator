@@ -135,7 +135,7 @@ export function ChatAssistant() {
           <header className="chat-header">
             <div className="chat-monogram">E</div>
             <div className="flex-1">
-              <h2 className="font-display text-lg text-primary-foreground">Edith's Assistant</h2>
+              <h2 className="font-display text-sm tracking-wide text-primary-foreground">Edith's Assistant</h2>
               <p className="flex items-center gap-2 text-xs text-primary-foreground/75"><span className="online-dot" />Online</p>
             </div>
             <Button variant="icon" size="icon" aria-label="Close assistant" onClick={() => setOpen(false)}>
