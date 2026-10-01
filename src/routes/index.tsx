@@ -89,10 +89,9 @@ function Index() {
             <Button variant="ivory" onClick={() => document.querySelector<HTMLButtonElement>("[aria-label=\"Open Edith's Assistant\"]")?.click()}>Ask My Assistant <MessageSquareText className="size-4" /></Button>
           </div>
         </div>
-        <div className="portrait-wrap reveal" aria-label="Portrait placeholder for Edith Moricz">
+        <div className="portrait-wrap reveal">
           <div className="portrait-frame">
-            <div className="portrait-monogram">EM</div>
-            <p>Portrait</p>
+            <img src="/edith.jpg" alt="Portrait of Edith Moricz" className="absolute inset-0 h-full w-full object-cover object-top" />
           </div>
           <div className="portrait-arc" />
         </div>
