@@ -163,7 +163,7 @@ function Index() {
       </section>
 
       <footer>
-        <div className="footer-main section-shell"><div className="brand footer-brand"><span>Edith Moricz</span><small>Executive Strategic Advisory</small></div><div className="footer-links"><a href={SITE_LINKS.linkedin} target="_blank" rel="noreferrer"><Linkedin />LinkedIn</a><a href={`mailto:${SITE_LINKS.email}`}><Mail />Email</a><a href={SITE_LINKS.calendly} target="_blank" rel="noreferrer"><CalendarDays />Book a meeting</a></div></div>
+        <div className="footer-main section-shell"><div className="brand footer-brand"><span>Edith Moricz</span><small>Executive Strategic Advisory</small></div><div className="footer-links"><a href={SITE_LINKS.linkedin} target="_blank" rel="noreferrer"><Linkedin />LinkedIn</a><a href={SITE_LINKS.gmailCompose} target="_blank" rel="noreferrer" title={SITE_LINKS.email}><Mail />{SITE_LINKS.email}</a><a href={SITE_LINKS.calendly} target="_blank" rel="noreferrer"><CalendarDays />Book a meeting</a></div></div>
         <div className="footer-bottom section-shell"><span>© {new Date().getFullYear()} Edith Moricz</span><span>Greater Boston</span></div>
       </footer>
       <ChatAssistant />
